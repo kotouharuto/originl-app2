@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block contents %}
+
+<div class="main-con">
+ <h2 class="page-title">Sign Up</h2><br>
+ <div class="login-form">
+  <form action="/login" method="post">
+   <input type="text" name="mail" class="form-control"><br><br>
+   <input type="password" name="pass" class="form-control"><br><br>
+   <input type="submit" value= "Sign Up" class="btn btn-primary">
+  </form>
+ </div><br>
+ <a href="/login">すでに会員の方はこちら</a>
+</div>
+{% endblock %}
